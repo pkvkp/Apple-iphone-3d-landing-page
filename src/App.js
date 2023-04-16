@@ -2,7 +2,8 @@ import "./App.css";
 import { GlobalStyles } from "./styles/GlobalStyles";
 import Quote from "./section/Quote";
 import Hero from "./section/Hero";
-// import PhoneModel from "./section/PhoneModel";
+import PhoneModel from "./section/PhoneModel";
+import Design from "./section/Design";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Quote />
       {/* <PhoneModel/> */}
       <Hero/>
+      <Design/>
     </>
   );
 }

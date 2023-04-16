@@ -16,7 +16,7 @@ const Container = styled.div`
 
 const PhoneModel = () => {
   return (
-    <Container>
+    <Container id="phone-model">
       <Canvas>
         <ambientLight intensity={1.2} />
         <directionalLight intensity={0.4} />
