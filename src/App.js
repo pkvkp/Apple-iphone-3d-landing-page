@@ -4,6 +4,7 @@ import Quote from "./section/Quote";
 import Hero from "./section/Hero";
 import PhoneModel from "./section/PhoneModel";
 import Design from "./section/Design";
+import Display from "./section/Display";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       {/* <PhoneModel/> */}
       <Hero/>
       <Design/>
+      <Display/>
     </>
   );
 }
